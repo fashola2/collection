@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Hi</h1>
+
+
+    <a href="/cars/new">New Car</a>
+
+    {{#cars}}
+    <li><a href="/cars/{{_id}}">{{make}}</a></li>
+    {{/cars}}
+  </body>
+</html>

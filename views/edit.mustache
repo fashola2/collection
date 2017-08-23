@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>New Car</h1>
+      <form class="" action="/cars/{{car._id}}" method="post">
+        <div class="">
+          <label for="make">Make</label>
+          <input type="text" name="make" value="{{car.make}}">
+        </div>
+
+        <div class="">
+          <label for="model">Model</label>
+          <input type="text" name="model" value="{{car.model}}">
+        </div>
+
+        <button type="submit" name="button">New Car</button>
+      </form>
+
+  </body>
+</html>
